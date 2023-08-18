@@ -1,18 +1,18 @@
 //1 Write a function called logMyName that will log your name.  Call this 1 time
-function logMyName() {
+const logMyName = () => {
     console.log("Your Name");
 }
 logMyName();
 
 //Write a function called logThisName that will log the name parameter. Call this 2 times. 
-function logThisName(name) {
+const logThisName = (name) => {
     console.log(name);
 }
-logThisName("Name 1")
-logThisName("Name 2")
+logThisName("Name 1");
+logThisName("Name 2");
 
 //3. Write a function called checkName that will check if the name parameter is "Joyce". Call this function 3 times - with "Chase" "Jerry" and "Joyce"
-function checkName(name) {
+const checkName = (name) => {
     if (name === "Joyce") {
         console.log("Welcome Joyce!")
     } else {
